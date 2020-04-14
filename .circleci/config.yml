@@ -21,8 +21,4 @@ workflows:
   version: 2
   test-all:
     jobs:
-      - test_regression_model:
-        filters:
-          branches:
-            only:
-              - mycircleci
+      - test_regression_model
